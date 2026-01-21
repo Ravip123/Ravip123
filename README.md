@@ -78,33 +78,50 @@ Python & Shell (basic)
 
 <h2>🧩 AWS Architecture (Animated)</h2>
 
-<svg width="600" height="220" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .box { fill:#1f2937; stroke:#38bdf8; stroke-width:2; rx:10; }
-    .text { fill:#e5e7eb; font-size:13px; font-family: monospace; }
-    .line {
-      stroke:#38bdf8;
-      stroke-width:2;
-      stroke-dasharray:5;
-      animation: dash 2s linear infinite;
-    }
-    @keyframes dash {
-      to { stroke-dashoffset: -20; }
-    }
-  </style>
+<svg width="600" height="220" viewBox="0 0 600 220"
+     xmlns="http://www.w3.org/2000/svg">
 
-  <rect x="50" y="80" width="140" height="60" class="box"/>
-  <text x="95" y="115" class="text">EC2</text>
+  <!-- EC2 -->
+  <rect x="50" y="80" width="140" height="60"
+        rx="10" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
+  <text x="120" y="115" fill="#e5e7eb"
+        font-size="13" font-family="monospace"
+        text-anchor="middle">EC2</text>
 
-  <rect x="230" y="20" width="140" height="60" class="box"/>
-  <text x="275" y="55" class="text">ALB</text>
+  <!-- ALB -->
+  <rect x="230" y="20" width="140" height="60"
+        rx="10" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
+  <text x="300" y="55" fill="#e5e7eb"
+        font-size="13" font-family="monospace"
+        text-anchor="middle">ALB</text>
 
-  <rect x="410" y="80" width="160" height="60" class="box"/>
-  <text x="440" y="115" class="text">RDS (Multi-AZ)</text>
+  <!-- RDS -->
+  <rect x="410" y="80" width="160" height="60"
+        rx="10" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
+  <text x="490" y="115" fill="#e5e7eb"
+        font-size="13" font-family="monospace"
+        text-anchor="middle">RDS (Multi-AZ)</text>
 
-  <line x1="190" y1="110" x2="230" y2="50" class="line"/>
-  <line x1="370" y1="50" x2="410" y2="110" class="line"/>
+  <!-- Animated Line EC2 → ALB -->
+  <line x1="190" y1="110" x2="230" y2="50"
+        stroke="#38bdf8" stroke-width="2"
+        stroke-dasharray="5 5">
+    <animate attributeName="stroke-dashoffset"
+             from="0" to="-20"
+             dur="1.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Animated Line ALB → RDS -->
+  <line x1="370" y1="50" x2="410" y2="110"
+        stroke="#38bdf8" stroke-width="2"
+        stroke-dasharray="5 5">
+    <animate attributeName="stroke-dashoffset"
+             from="0" to="-20"
+             dur="1.5s" repeatCount="indefinite"/>
+  </line>
+
 </svg>
+
 
 
 ---
@@ -203,8 +220,9 @@ Python & Shell (basic)
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ravip123&theme=tokyonight" />
+  <img src="https://streak-stats.demolab.com?user=Ravip123&theme=tokyonight" />
 </p>
+
 
 ---
 
