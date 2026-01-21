@@ -128,11 +128,11 @@ Python & Shell (basic)
 <h2>🧪 AWS Skill Builder – Hands-On Labs</h2>
 
 <p>
-  <img src="https://img.shields.io/badge/EC2-Troubleshooting-success?style=flat-square&logo=amazonaws"/>
-  <img src="https://img.shields.io/badge/IAM-Permission_Debugging-success?style=flat-square&logo=amazonaws"/>
-  <img src="https://img.shields.io/badge/CloudWatch-Monitoring-success?style=flat-square&logo=amazonaws"/>
-  <img src="https://img.shields.io/badge/High_Availability-ALB_+_ASG-success?style=flat-square&logo=amazonaws"/>
-  <img src="https://img.shields.io/badge/RDS-Multi--AZ-success?style=flat-square&logo=amazonaws"/>
+  <img src="https://img.shields.io/badge/EC2-Troubleshooting-ff9900?style=flat-square&logo=amazonaws"/>
+  <img src="https://img.shields.io/badge/IAM-Permission_Debugging-ff9900?style=flat-square&logo=amazonaws"/>
+  <img src="https://img.shields.io/badge/CloudWatch-Monitoring-ff9900?style=flat-square&logo=amazonaws"/>
+  <img src="https://img.shields.io/badge/High_Availability-ALB_+_ASG-ff9900?style=flat-square&logo=amazonaws"/>
+  <img src="https://img.shields.io/badge/RDS-Multi--AZ-ff9900?style=flat-square&logo=amazonaws"/>
 </p>
 
 ---
@@ -220,8 +220,9 @@ Python & Shell (basic)
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Ravip123&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravip123&layout=compact&theme=tokyonight" />
 </p>
+
 
 
 ---
