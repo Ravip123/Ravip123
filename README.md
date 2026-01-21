@@ -6,11 +6,13 @@
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws"/>
-  <img src="https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=linux"/>
-  <img src="https://img.shields.io/badge/Git-GitHub-black?style=for-the-badge&logo=git"/>
+<p>
+  <img src="https://img.shields.io/badge/EC2-AWS-blue?style=for-the-badge&logo=amazonaws"/>
+  <img src="https://img.shields.io/badge/S3-AWS-orange?style=for-the-badge&logo=amazonaws"/>
+  <img src="https://img.shields.io/badge/IAM-Security-success?style=for-the-badge&logo=amazonaws"/>
+  <img src="https://img.shields.io/badge/VPC-Networking-purple?style=for-the-badge&logo=amazonaws"/>
 </p>
+
 
 ---
 
@@ -33,7 +35,7 @@ and personal labs.
 
 <table>
 <tr>
-<td>
+<td width="50%">
 
 <b>☁️ AWS Services</b><br/>
 EC2 • S3 • IAM • VPC<br/>
@@ -42,7 +44,7 @@ Auto Scaling • ALB<br/>
 Lambda (basic)
 
 </td>
-<td>
+<td width="50%">
 
 <b>🔧 Tools & Platforms</b><br/>
 Linux (Ubuntu)<br/>
@@ -55,21 +57,8 @@ Python & Shell (basic)
 </tr>
 </table>
 
----
 
-<style>
-.skill-card {
-  border:1px solid #38bdf8;
-  padding:12px;
-  border-radius:10px;
-  transition: all 0.3s ease;
-}
-.skill-card:hover {
-  background-color:#0f172a;
-  box-shadow: 0 0 12px #38bdf8;
-  transform: scale(1.03);
-}
-</style>
+---
 
 <div class="skill-card">
   ☁️ EC2 • S3 • IAM • VPC • CloudWatch
@@ -104,22 +93,19 @@ Python & Shell (basic)
     }
   </style>
 
-  <!-- EC2 -->
-  <rect x="50" y="60" width="140" height="60" class="box"/>
-  <text x="85" y="95" class="text">EC2</text>
+  <rect x="50" y="80" width="140" height="60" class="box"/>
+  <text x="95" y="115" class="text">EC2</text>
 
-  <!-- ALB -->
-  <rect x="240" y="20" width="140" height="60" class="box"/>
+  <rect x="230" y="20" width="140" height="60" class="box"/>
   <text x="275" y="55" class="text">ALB</text>
 
-  <!-- RDS -->
-  <rect x="430" y="60" width="140" height="60" class="box"/>
-  <text x="470" y="95" class="text">RDS (Multi-AZ)</text>
+  <rect x="410" y="80" width="160" height="60" class="box"/>
+  <text x="440" y="115" class="text">RDS (Multi-AZ)</text>
 
-  <!-- Lines -->
-  <line x1="190" y1="90" x2="240" y2="50" class="line"/>
-  <line x1="380" y1="50" x2="430" y2="90" class="line"/>
+  <line x1="190" y1="110" x2="230" y2="50" class="line"/>
+  <line x1="370" y1="50" x2="410" y2="110" class="line"/>
 </svg>
+
 
 ---
 <h2>🧪 AWS Skill Builder – Hands-On Labs</h2>
