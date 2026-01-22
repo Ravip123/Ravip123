@@ -41,17 +41,17 @@ and personal labs.
 EC2 • S3 • IAM • VPC<br/>
 CloudWatch • RDS (Multi-AZ)<br/>
 Auto Scaling • ALB<br/>
-Lambda (basic)
+Lambda 
 
 </td>
 <td width="50%">
 
 <b>🔧 Tools & Platforms</b><br/>
 Linux (Ubuntu)<br/>
-AWS CLI (basic)<br/>
+AWS CLI <br/>
 Git & GitHub<br/>
 MySQL<br/>
-Python & Shell (basic)
+Python & Shell
 
 </td>
 </tr>
