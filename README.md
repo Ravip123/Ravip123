@@ -230,7 +230,7 @@ Python & Shell
 ⭐ <i>This profile documents my journey from AWS Cloud Support to Cloud Engineering & Architecture.</i>
 
 <div align="center">
-    <img src="![Animation Preview](./ui_goku.gif)" width="300" />
+    <img src="![Animation Preview](./ui_goku.gif)" />
 </div>
 
 <div align="center">
