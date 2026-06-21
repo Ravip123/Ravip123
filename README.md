@@ -75,56 +75,6 @@ Python & Shell
 </ul>
 
 ---
-
-<h2>🧩 AWS Architecture (Animated)</h2>
-
-<svg width="600" height="220" viewBox="0 0 600 220"
-     xmlns="http://www.w3.org/2000/svg">
-
-  <!-- EC2 -->
-  <rect x="50" y="80" width="140" height="60"
-        rx="10" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
-  <text x="120" y="115" fill="#e5e7eb"
-        font-size="13" font-family="monospace"
-        text-anchor="middle">EC2</text>
-
-  <!-- ALB -->
-  <rect x="230" y="20" width="140" height="60"
-        rx="10" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
-  <text x="300" y="55" fill="#e5e7eb"
-        font-size="13" font-family="monospace"
-        text-anchor="middle">ALB</text>
-
-  <!-- RDS -->
-  <rect x="410" y="80" width="160" height="60"
-        rx="10" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
-  <text x="490" y="115" fill="#e5e7eb"
-        font-size="13" font-family="monospace"
-        text-anchor="middle">RDS (Multi-AZ)</text>
-
-  <!-- Animated Line EC2 → ALB -->
-  <line x1="190" y1="110" x2="230" y2="50"
-        stroke="#38bdf8" stroke-width="2"
-        stroke-dasharray="5 5">
-    <animate attributeName="stroke-dashoffset"
-             from="0" to="-20"
-             dur="1.5s" repeatCount="indefinite"/>
-  </line>
-
-  <!-- Animated Line ALB → RDS -->
-  <line x1="370" y1="50" x2="410" y2="110"
-        stroke="#38bdf8" stroke-width="2"
-        stroke-dasharray="5 5">
-    <animate attributeName="stroke-dashoffset"
-             from="0" to="-20"
-             dur="1.5s" repeatCount="indefinite"/>
-  </line>
-
-</svg>
-
-
-
----
 <h2>🧪 AWS Skill Builder – Hands-On Labs</h2>
 
 <p>
